@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+import openpyxl
 
 df2=pd.read_excel("./test.xlsx")
 st.dataframe(df2)
